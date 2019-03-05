@@ -35,3 +35,7 @@ def get_english_meaning(file_path, emoticon)
   end
   return_meaning
 end
+
+puts "Enter an English emoticon:"
+input = gets.chomp
+puts get_japanese_emoticon("emoticons.yml", input)
